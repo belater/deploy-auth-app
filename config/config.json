@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "test_efishery_db",
+    "host": "localhost",
+    "port" : "5432",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "test_efishery_db_user",
+    "password": "R4wXHc8oi9I8n8qac7BD48Sn9Z2mZVtm",
+    "database": "test_efishery_db",
+    "host": "dpg-cgbji082qv267u933010-a.oregon-postgres.render.com",
+    "port" : "5432",
+    "dialect": "postgres"
+  }
+}
