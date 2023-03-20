@@ -13,6 +13,12 @@
     "database": "test_efishery_db",
     "host": "dpg-cgbji082qv267u933010-a.oregon-postgres.render.com",
     "port" : "5432",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
